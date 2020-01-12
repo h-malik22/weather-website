@@ -1,7 +1,3 @@
-//window.alert("Hello! I am an alert box!!");
-
-console.log('Hello js')
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const msg1 = document.querySelector('#msg1')
