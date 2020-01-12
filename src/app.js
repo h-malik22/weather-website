@@ -32,7 +32,7 @@ app.get('/about', (req, res)=>{
 
 app.get('/help', (req, res)=>{
     res.render('help', {
-        helpText: 'Helpful text',
+        helpText: 'Find your weather by city town or postcode',
         title: 'About me',
         name: author.name
     })
